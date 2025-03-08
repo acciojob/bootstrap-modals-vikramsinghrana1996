@@ -1,2 +1,46 @@
 
 /* Your CSS Code here. */
+/* Style the button to make it more appealing */
+#open-modal {
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* Center the modal text */
+.modal-body {
+    text-align: center;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Style the modal header */
+.modal-header {
+    background-color: #011e29; /* Custom dark blue header */
+    color: white;
+    border-bottom: none;
+}
+
+/* Style the modal title */
+.modal-title {
+    font-weight: bold;
+}
+
+/* Style the close button in header */
+.modal-header .btn-close {
+    filter: invert(1); /* Makes the close button white */
+}
+
+/* Style the modal footer */
+.modal-footer {
+    border-top: none;
+    justify-content: center;
+}
+
+/* Style the close button in footer */
+.modal-footer .btn-secondary {
+    background-color: #6c757d;
+    border: none;
+    padding: 8px 15px;
+    font-size: 14px;
+}
